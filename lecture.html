@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <h1 id="h">Dreamweaver - Insurance</h1>
+<p id="p">  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil animi dolore, accusantium nostrum adipisci minima quos ut quasi. Fuga inventore reprehenderit fugiat reiciendis ipsa. Ipsum natus, magnam sunt quibusdam sequi tempora nisi atque quos laboriosam hic. Ut quas est soluta voluptatem nihil. Unde officia delectus, quis quasi fuga in placeat numquam excepturi porro natus quas incidunt distinctio deleniti eius neque minima est enim illum amet aut? Consequuntur optio dicta molestiae facere harum, labore ab dolor ullam sint at atque animi excepturi unde quam veniam suscipit aliquam porro, quia nisi totam, consectetur voluptatibus? Autem natus dolorum nulla enim quis nobis velit, sit modi, eligendi assumenda dicta quam consequuntur sapiente pariatur, esse a ut iusto at nisi. Amet dignissimos at officia adipisci nam distinctio. Corrupti adipisci, repellat aut minima nostrum enim officiis quidem ea labore libero a! Nemo, dignissimos ad? Quasi libero harum a nulla natus accusantium provident adipisci perferendis. Praesentium tempora, molestiae aliquid tempore quia qui officia quisquam omnis quas ex nobis impedit sunt quo magnam excepturi quidem laborum autem veritatis alias ipsum? Esse nostrum dignissimos maiores laboriosam, culpa at, earum tempora accusantium minus alias expedita repellat? Est nam facilis alias impedit voluptatibus quo reiciendis esse cumque aperiam excepturi! Voluptate, ipsam temporibus eaque, deserunt eum corporis est incidunt ratione atque mollitia consequatur illo possimus, dolorem pariatur accusantium dolorum explicabo molestiae vero. Ratione recusandae vitae, eos voluptas repudiandae voluptatum alias nihil amet, quisquam, fugit quia! Quo asperiores quisquam porro, voluptatem neque cumque ut ex nulla quasi laborum ipsum, aliquid doloribus repellat quaerat odio, assumenda excepturi maiores officia iste laboriosam perspiciatis. Similique vel est, sequi soluta officia quisquam voluptatem veniam cupiditate neque temporibus? Assumenda, vero commodi. Maxime molestiae ratione maiores, atque quam, quidem totam quos similique accusantium magnam hic corporis autem ipsum? Et molestiae a eveniet quam veritatis dignissimos reiciendis sapiente impedit expedita qui veniam cupiditate odio, temporibus aspernatur sint, perferendis voluptate dolor illo obcaecati, rerum voluptatibus vel velit in! Dicta, ipsam neque.</p>
+<button id="btn">Click</button>
+<button id="btn1">Hide</button>
+<button id="btn2">Show</button>
+<script>
+$('#btn').click(function()
+{
+    $('#h').css('color','red')
+    $('#h').css('fontFamily','Algerian')
+    $('#p').css('color','gray')
+    $('#p').css('fontsize','30px')
+    $('#p').css('fontFamily','Algerian')
+    $('#h').toggle(5000);
+  $('#p').toggle(5000);
+})
+$('#btn1').click(function()
+{
+  $('#h').hide(5000);
+  $('#p').hide(5000);
+})
+$('#btn2').click(function()
+{
+  $('#h').show(5000);
+  $('#p').show(5000);
+});
+
+</script>
+</body>
+</html>
